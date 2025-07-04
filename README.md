@@ -266,4 +266,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*This project demonstrates advanced algorithmic thinking, performance optimization, and practical application of computational intelligence to solve real-world problems. The combination of Python and Rust showcases modern best practices in high-performance computing and software engineering.* 
+*The system showcases how modern hybrid algorithms and language interoperability (Python + Rust) can tackle combinatorial logistics problems at scale.* 
