@@ -2,6 +2,13 @@
 
 A high-performance genetic algorithm implementation for optimizing complex routing across 800+ job sites in Seattle. This project demonstrates advanced algorithm design, performance optimization, and practical application of computational intelligence to real-world logistics challenges.
 
+### ⚠️ Research Project Disclaimer
+
+> This project is a **research-style, exploratory system** developed to test hybrid optimization strategies and algorithmic performance for large-scale vehicle routing. It is **not a production-ready system**, but rather an advanced prototype for experimenting with metaheuristics and performance engineering.  
+>  
+> I have experience working on **production-grade software systems**, but this project prioritizes **algorithmic exploration and speed** over deployment, fault tolerance, or user-facing robustness.
+
+
 ## **Project Overview**
 
 This project implements a custom memetic algorithm that combines genetic algorithms with local search optimization to solve large-scale Vehicle Routing Problems (VRP). The system was designed to optimize crew routing across Seattle's electrical infrastructure, processing hundreds of job sites with complex constraints including equipment requirements, working hours, and geographical limitations.
