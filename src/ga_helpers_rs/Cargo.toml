@@ -1,0 +1,10 @@
+[package]
+name = "ga_helpers_rs"
+version = "0.1.0"
+edition = "2024" # This is fine if your Rust toolchain is up-to-date
+
+[dependencies]
+pyo3 = { version = "0.24", features = ["extension-module"] }
+once_cell = "1.19"  # Or a more recent compatible version
+ndarray = "0.15"
+rand = "0.8"
