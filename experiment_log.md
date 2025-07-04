@@ -18,6 +18,8 @@ This document outlines the iterative development, experimentation, and performan
 * Introduced parent crossover alongside mutation (May 16).
 
   * Minor improvement; best score reduced to \~3,970,000 meters.
+<img width="853" alt="Screenshot 2025-07-04 at 1 28 31 PM" src="https://github.com/user-attachments/assets/c8f23a73-a1ef-4d60-9a55-e0aa5f2fb4da" />
+
 
 ## Phase 3: Population Scaling and Performance Bottlenecks
 
@@ -32,6 +34,7 @@ This document outlines the iterative development, experimentation, and performan
     * Python (no initializer): 820.40 seconds for 5,000 generations
     * Rust: 36.38 seconds for 5,000 generations
   * Best Rust-accelerated score: 812,240.90 meters
+<img width="1045" alt="Screenshot 2025-07-04 at 1 29 31 PM" src="https://github.com/user-attachments/assets/9a205de2-3482-4eca-89aa-0414a41deb68" />
 
 ## Phase 4: Genetic Strategy Refinement
 
@@ -50,6 +53,8 @@ This document outlines the iterative development, experimentation, and performan
 ## Phase 5: Selection Strategy Experiments
 
 * Tested tournament selection — results degraded by \~25%
+<img width="1044" alt="Screenshot 2025-07-04 at 1 30 12 PM" src="https://github.com/user-attachments/assets/dd42cb21-c8c3-42ab-852e-8b7567c5865c" />
+
 * Introduced hybrid selection:
 
   * First 5,000 generations with standard selector
@@ -64,7 +69,7 @@ This document outlines the iterative development, experimentation, and performan
   * Initial runs led to local minima at \~263,000 meters
   * Introduced 5-pass 2-opt at random start points after 1,000 generations
   * Result: 261,000 meters
-
+    
 * Further refinement:
 
   * Full 2-opt passes on elites, random passes on children
@@ -83,6 +88,7 @@ This document outlines the iterative development, experimentation, and performan
 * Achieved best route score: 65,177 meters
 
   * Relied heavily on tuned 2-opt and 3-opt routines
+<img width="1456" alt="Screenshot 2025-07-04 at 1 32 37 PM" src="https://github.com/user-attachments/assets/61fda7cb-75f9-4bec-a7b1-68da3e19dc72" />
 
 * Key finding:
 
