@@ -2,7 +2,7 @@
 
 A high-performance genetic algorithm implementation for optimizing complex routing across 800+ job sites in Seattle. This project demonstrates advanced algorithm design, performance optimization, and practical application of computational intelligence to real-world logistics challenges.
 
-### ⚠️ Research Project Disclaimer
+### Research Project Disclaimer
 
 > This project is a **research-style, exploratory system** developed to test hybrid optimization strategies and algorithmic performance for large-scale vehicle routing. It is **not a production-ready system**, but rather an advanced prototype for experimenting with metaheuristics and performance engineering.  
 >  
@@ -15,7 +15,7 @@ This project implements a custom memetic algorithm that combines genetic algorit
 
 **Key Achievement**: Developed a hybrid algorithm combining genetic algorithms with Rust-optimized local search, demonstrating systematic improvements through algorithmic innovation and performance optimization.
 
-## 📊 **Technical Highlights**
+## **Technical Highlights**
 
 ### Core Technologies
 - **Python 3.13+**: Primary implementation language
@@ -38,7 +38,7 @@ This project implements a custom memetic algorithm that combines genetic algorit
 - **Memory Management**: Efficient distance matrix handling for large datasets
 - **Caching Strategy**: Optimized data structures for repeated calculations
 
-## 🏗️ **Architecture & Design**
+## **Architecture & Design**
 
 ### Project Structure
 ```
@@ -77,7 +77,7 @@ src/
 - Distance matrix computation and optimization
 - Data validation and cleaning procedures
 
-## 🔧 **Installation & Setup**
+## **Installation & Setup**
 
 ### Prerequisites
 - Python 3.13+
@@ -131,7 +131,7 @@ black>=23.0.0
 mypy>=1.0.0
 ```
 
-## 🚦 **Usage**
+## **Usage**
 
 ### Basic Usage
 ```python
@@ -189,7 +189,7 @@ MULTI_OBJECTIVE_PARAMS = {
 }
 ```
 
-## 📈 **Performance Metrics**
+## **Performance Metrics**
 
 ### Benchmarking Results
 - **Scale**: Successfully optimized routes for 800+ job sites
@@ -204,7 +204,7 @@ The system demonstrates measurable improvements through:
 - **Memory Optimization**: Efficient distance matrix handling for large datasets
 - **Algorithm Refinement**: Iterative improvements shown in performance plots
 
-## 🔬 **Research & Development**
+## **Research & Development**
 
 ### Algorithm Innovations
 1. **Adaptive Selection Pressure**: Dynamic tournament size based on population diversity
@@ -232,7 +232,7 @@ The system demonstrates measurable improvements through:
 - Maintain >95% test coverage
 - Document all public APIs
 
-## 📚 **Technical Documentation**
+## **Technical Documentation**
 
 ### Algorithm Details
 - **Genetic Representation**: Permutation encoding for route sequences
@@ -246,20 +246,19 @@ The system demonstrates measurable improvements through:
 - **Space Complexity**: O(n² + p×n) for distance matrix and population storage
 - **Scalability**: Linear scaling with multiprocessing optimization
 
-## 🏆 **Key Achievements**
+## **Key Achievements**
 
-- ✅ **Scalability**: Successfully handles 800+ job sites
-- ✅ **Performance**: Significant speed improvement through Rust integration
-- ✅ **Quality**: Demonstrated systematic improvement over baseline approaches
-- ✅ **Real-world Impact**: Evaluated against human-planned routes to assess logistical feasibility
-- ✅ **Technical Innovation**: Novel hybrid algorithm design
-- ✅ Field-Tested Prototype: An earlier version of this system was tested with actual Seattle-based utility crews during initial development
+- **Scalability**: Successfully handles 800+ job sites
+- **Performance**: Significant speed improvement through Rust integration
+- **Quality**: Demonstrated systematic improvement over baseline approaches
+- **Real-world Relevance**: Evaluated against human-planned routes; an earlier prototype was field-tested with Seattle-based utility crews
+- **Technical Innovation**: Novel hybrid algorithm design
 
-## 📄 **License**
+## **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 **Connect**
+## **Connect**
 
 - **LinkedIn**: https://www.linkedin.com/in/luke-hakso-a4a672330/
 - **Email**: luke.c.hakso@gmail.com
