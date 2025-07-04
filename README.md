@@ -1,6 +1,6 @@
 # Vehicle Routing Problem Solver: Seattle Crew Optimization
 
-A high-performance genetic algorithm implementation for optimizing complex routing across 800+ job sites in Seattle. This project demonstrates advanced algorithm design, performance optimization, and practical application of computational intelligence to real-world logistics challenges.
+A genetic algorithm implementation for optimizing complex routing across 800+ job sites in Seattle. This project demonstrates advanced algorithm design, performance optimization, and practical application of computational intelligence to real-world logistics challenges.
 
 ### Research Project Disclaimer
 
