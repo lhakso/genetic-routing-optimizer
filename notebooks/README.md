@@ -2,7 +2,7 @@
 
 This directory contains Jupyter notebooks documenting the complete development process for the genetic algorithm routing optimizer, from data preprocessing through algorithm implementation to performance analysis.
 
-## 📚 **Notebook Overview**
+## **Notebook Overview**
 
 ### 1. `genetic_algo.ipynb` - Core Algorithm Development
 **Purpose**: Implements the main genetic algorithm for vehicle routing optimization
@@ -70,7 +70,7 @@ This directory contains Jupyter notebooks documenting the complete development p
 - Parallel processing preparation for multiple clusters
 - Scalability solution for 800+ location problems
 
-## 🔬 **Research Methodology**
+## **Research Methodology**
 
 ### Data Pipeline Flow
 ```
@@ -129,7 +129,7 @@ get_data.ipynb → geocode.ipynb → distance_matrix.ipynb → agglomerative_clu
 - **Testing Framework**: Systematic validation against known benchmarks
 - **Documentation**: Detailed analysis and methodology documentation
 
-## 📈 **Results and Impact**
+## **Results and Impact**
 
 ### Algorithm Performance
 - **Scalability**: Handles enterprise-scale routing problems efficiently
