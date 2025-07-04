@@ -261,9 +261,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 **Connect**
 
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Portfolio**: [Your Portfolio Website]
-- **Email**: [Your Email Address]
+- **LinkedIn**: https://www.linkedin.com/in/luke-hakso-a4a672330/
+- **Email**: luke.c.hakso@gmail.com
 
 ---
 
