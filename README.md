@@ -226,12 +226,6 @@ The system demonstrates measurable improvements through:
 3. Implement changes with tests
 4. Submit pull request with performance benchmarks
 
-### Code Standards
-- Follow PEP 8 for Python code
-- Use type hints throughout
-- Maintain >95% test coverage
-- Document all public APIs
-
 ## **Technical Documentation**
 
 ### Algorithm Details
