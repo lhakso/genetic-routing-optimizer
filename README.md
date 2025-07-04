@@ -18,7 +18,7 @@ This project implements a custom memetic algorithm that combines genetic algorit
 ## **Technical Highlights**
 
 ### Core Technologies
-- **Python 3.13+**: Primary implementation language
+- **Python 3.11+**: Primary implementation language
 - **Rust**: High-performance fitness evaluation and local search optimization
 - **PyO3**: Seamless Python-Rust interoperability
 - **NumPy**: Efficient numerical computations and distance matrix operations
